@@ -1,140 +1,300 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perang Padri - Sejarah Sumatera Barat</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Jejak Kekuasaan Islam</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4efe6;
+            color: #3d3027;
+            line-height: 1.7;
+        }
+
+        /* HEADER */
+
+        header {
+            background-color: #4b3024;
+            color: white;
+            text-align: center;
+            padding: 35px 20px 25px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #eadfd3;
+            margin-bottom: 25px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 28px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #d9b98c;
+        }
+
+        /* ISI */
+
+        .container {
+            width: 90%;
+            max-width: 1050px;
+            margin: 35px auto;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .intro {
+            text-align: center;
+        }
+
+        .intro h2 {
+            color: #5a3928;
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .intro p {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* TOPIK */
+
+        .topics {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .topic {
+            background-color: #faf8f4;
+            border: 1px solid #e5ddd3;
+            border-radius: 8px;
+            padding: 25px;
+        }
+
+        .topic h2 {
+            color: #5a3928;
+            margin-bottom: 10px;
+        }
+
+        .topic p {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #6b4732;
+            color: white;
+            text-decoration: none;
+            padding: 9px 16px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background-color: #4b3024;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background-color: #4b3024;
+            color: #eadfd3;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 4px 0;
+            font-size: 14px;
+        }
+
+        /* RESPONSIVE */
+
+        @media (max-width: 768px) {
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            .topics {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                gap: 15px;
+            }
+        }
+    </style>
+
 </head>
+
 
 <body>
 
-    <header>
-        <div class="container">
-            <h1>Perang Padri</h1>
-            <p>Sejarah konflik di Sumatera Barat pada abad ke-19</p>
+    <!-- HEADER -->
 
-            <nav>
-                <a href="index.html">Beranda</a>
-                <a href="timeline.html">Timeline</a>
-                <a href="tokoh.html">Tokoh & Kelompok</a>
-            </nav>
-        </div>
+    <header>
+
+        <h1>JEJAK KEKUASAAN ISLAM</h1>
+
+        <p>
+            Kisah Penaklukan dan Perubahan Kekuasaan di Abad Pertengahan
+        </p>
+
+        <nav>
+
+            <a href="index.html">Beranda</a>
+
+            <a href="yerusalem.html">
+                Penaklukan Yerusalem
+            </a>
+
+            <a href="konstantinopel.html">
+                Kejatuhan Konstantinopel
+            </a>
+
+        </nav>
+
     </header>
+
+
+    <!-- ISI -->
 
     <main class="container">
 
-        <section class="hero">
-            <div>
-                <h2>Perang Padri</h2>
-                <p>
-                    Perang Padri merupakan konflik yang berlangsung di
-                    wilayah Minangkabau, Sumatera Barat, pada sekitar
-                    tahun 1803 hingga 1837.
-                </p>
 
-                <a href="timeline.html" class="button">
-                    Lihat Timeline
-                </a>
-            </div>
+        <section class="card intro">
 
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/2/23/Tuanku_Imam_Bonjol.jpg"
-                alt="Gambar Tuanku Imam Bonjol">
-        </section>
-
-
-        <section class="content-card">
-
-            <h2>Apa Itu Perang Padri?</h2>
+            <h2>Selamat Datang</h2>
 
             <p>
-                Perang Padri merupakan salah satu konflik penting dalam
-                sejarah Sumatera Barat. Konflik ini pada awalnya berkaitan
-                dengan pertentangan antara kelompok pembaharu Islam yang
-                dikenal sebagai Kaum Padri dengan kelompok masyarakat
-                yang mempertahankan tradisi dan kepemimpinan adat,
-                yang dikenal sebagai Kaum Adat.
-            </p>
-
-            <p>
-                Dalam perkembangan konflik, Kaum Adat meminta bantuan
-                kepada Belanda. Campur tangan Belanda kemudian membuat
-                konflik berkembang menjadi perjuangan melawan kekuatan
-                kolonial Belanda.
+                Website ini membahas berbagai peristiwa penting dalam
+                sejarah abad pertengahan yang berkaitan dengan perubahan
+                kekuasaan dan penaklukan wilayah. Dua peristiwa yang
+                dibahas adalah Penaklukan Yerusalem pada tahun 1187
+                dan Kejatuhan Konstantinopel pada tahun 1453.
             </p>
 
         </section>
 
 
-        <section class="three-columns">
+        <section class="card">
 
-            <div class="info-card">
-                <h3>Kaum Padri</h3>
-                <p>
-                    Kelompok pembaharu Islam di Minangkabau yang
-                    berusaha menerapkan perubahan dalam kehidupan
-                    keagamaan dan sosial masyarakat.
-                </p>
-            </div>
-
-            <div class="info-card">
-                <h3>Kaum Adat</h3>
-                <p>
-                    Kelompok yang mempertahankan sistem adat dan
-                    kepemimpinan tradisional Minangkabau.
-                </p>
-            </div>
-
-            <div class="info-card">
-                <h3>Belanda</h3>
-                <p>
-                    Belanda ikut campur dalam konflik setelah
-                    mendapatkan permintaan bantuan dari pihak
-                    Kaum Adat.
-                </p>
-            </div>
-
-        </section>
+            <h2 style="color: #5a3928; margin-bottom: 20px;">
+                Peristiwa yang Dibahas
+            </h2>
 
 
-        <section class="content-card">
+            <div class="topics">
 
-            <h2>Tuanku Imam Bonjol</h2>
 
-            <div class="image-section">
+                <!-- YERUSALEM -->
 
-                <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/2/23/Tuanku_Imam_Bonjol.jpg"
-                    alt="Potret Tuanku Imam Bonjol">
+                <div class="topic">
 
-                <div>
-                    <p>
-                        Tuanku Imam Bonjol merupakan salah satu tokoh
-                        penting dalam Perang Padri. Ia dikenal sebagai
-                        salah satu pemimpin Kaum Padri dan berkaitan
-                        erat dengan pertahanan Bonjol.
-                    </p>
+                    <h2>
+                        Penaklukan Yerusalem
+                    </h2>
 
                     <p>
-                        Perjuangannya menjadi salah satu bagian penting
-                        dalam sejarah perlawanan masyarakat Minangkabau
-                        terhadap Belanda.
+                        Pelajari perjalanan Salahuddin Al-Ayyubi
+                        dalam menghadapi Kerajaan Yerusalem hingga
+                        penyerahan kota Yerusalem pada tahun 1187.
                     </p>
+
+                    <a
+                        class="button"
+                        href="yerusalem.html"
+                    >
+                        Lihat Selengkapnya
+                    </a>
+
                 </div>
 
+
+                <!-- KONSTANTINOPEL -->
+
+                <div class="topic">
+
+                    <h2>
+                        Kejatuhan Konstantinopel
+                    </h2>
+
+                    <p>
+                        Pelajari peristiwa jatuhnya Konstantinopel
+                        pada tahun 1453 dan penaklukan kota oleh
+                        pasukan yang dipimpin Mehmed II.
+                    </p>
+
+                    <a
+                        class="button"
+                        href="konstantinopel.html"
+                    >
+                        Lihat Selengkapnya
+                    </a>
+
+                </div>
+
+
             </div>
 
         </section>
+
 
     </main>
 
 
+    <!-- FOOTER -->
+
     <footer>
+
         <p>
-            Website Sejarah Perang Padri | Tugas Pemrograman Web
+            <strong>Jejak Kekuasaan Islam</strong>
         </p>
+
+        <p>
+            Kisah Penaklukan dan Perubahan Kekuasaan di Abad Pertengahan
+        </p>
+
     </footer>
 
+
 </body>
+
 </html>
