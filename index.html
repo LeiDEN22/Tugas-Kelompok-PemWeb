@@ -1,276 +1,103 @@
 <!DOCTYPE html>
+
 <html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Jejak Kekuasaan Islam</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f4efe6;
-            color: #3d3027;
-            line-height: 1.7;
-        }
-
-        /* HEADER */
-
-        header {
-            background-color: #4b3024;
-            color: white;
-            text-align: center;
-            padding: 35px 20px 25px;
-        }
-
-        header h1 {
-            font-size: 32px;
-            margin-bottom: 8px;
-            letter-spacing: 1px;
-        }
-
-        header p {
-            font-size: 16px;
-            color: #eadfd3;
-            margin-bottom: 25px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 28px;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #d9b98c;
-        }
-
-        /* ISI */
-
-        .container {
-            width: 90%;
-            max-width: 1050px;
-            margin: 35px auto;
-        }
-
-        .card {
-            background-color: white;
-            border-radius: 10px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-        }
-
-        .intro {
-            text-align: center;
-        }
-
-        .intro h2 {
-            color: #5a3928;
-            font-size: 28px;
-            margin-bottom: 15px;
-        }
-
-        .intro p {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        /* DUA SEJARAH */
-
-        .topics {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 25px;
-            margin-top: 20px;
-        }
-
-        .topic {
-            background-color: #faf8f4;
-            border: 1px solid #e5ddd3;
-            border-radius: 8px;
-            padding: 25px;
-        }
-
-        .topic h2 {
-            color: #5a3928;
-            margin-bottom: 12px;
-        }
-
-        .topic p {
-            margin-bottom: 20px;
-        }
-
-        .button {
-            display: inline-block;
-            background-color: #6b4732;
-            color: white;
-            text-decoration: none;
-            padding: 9px 16px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-
-        .button:hover {
-            background-color: #4b3024;
-        }
-
-        /* RESPONSIVE */
-
-        @media (max-width: 768px) {
-
-            header h1 {
-                font-size: 25px;
-            }
-
-            .topics {
-                grid-template-columns: 1fr;
-            }
-
-            nav {
-                gap: 15px;
-            }
-        }
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
-    <!-- HEADER -->
+```
+<!-- HEADER -->
+<header>
+    <h1>JEJAK KEKUASAAN ISLAM</h1>
+    <p>
+        Penaklukan dan Perubahan Kekuasaan di Abad Pertengahan
+    </p>
 
-    <header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="yerusalem.html">
+            Penaklukan Yerusalem
+        </a>
+        <a href="konstatinopel.html">
+            Kejatuhan Konstantinopel
+        </a>
+    </nav>
+</header>
 
-        <h1>JEJAK KEKUASAAN ISLAM</h1>
+<!-- ISI -->
+<main class="container">
 
+    <!-- PENGENALAN -->
+    <section class="card intro">
+        <h2>Selamat Datang</h2>
         <p>
-            Penaklukan dan Perubahan Kekuasaan di Abad Pertengahan
+            Website ini membahas dua peristiwa penting dalam sejarah
+            abad pertengahan yang berkaitan dengan perubahan kekuasaan
+            di wilayah strategis. Peristiwa tersebut adalah
+            Penaklukan Yerusalem pada tahun 1187 dan Kejatuhan
+            Konstantinopel pada tahun 1453.
         </p>
+    </section>
 
-        <nav>
+    <!-- DUA SEJARAH -->
+    <section class="card">
+        <h2>
+            Sejarah yang Dibahas
+        </h2>
 
-            <a href="index.html">Beranda</a>
+        <div class="topics">
 
-            <a href="yerusalem.html">
-                Penaklukan Yerusalem
-            </a>
+            <!-- YERUSALEM -->
+            <div class="topic">
+                <h2>Penaklukan Yerusalem</h2>
+                <p>
+                    Pada tahun 1187, Salahuddin Al-Ayyubi memimpin
+                    pasukan Muslim dalam menghadapi kekuatan
+                    Kerajaan Yerusalem. Setelah kemenangan dalam
+                    Pertempuran Hattin, Yerusalem kemudian
+                    diserahkan kepada pasukan Salahuddin pada
+                    bulan Oktober 1187.
+                </p>
 
-            <a href="konstantinopel.html">
-                Kejatuhan Konstantinopel
-            </a>
-
-        </nav>
-
-    </header>
-
-
-    <!-- ISI -->
-
-    <main class="container">
-
-
-        <!-- PENGENALAN -->
-
-        <section class="card intro">
-
-            <h2>Selamat Datang</h2>
-
-            <p>
-                Website ini membahas dua peristiwa penting dalam sejarah
-                abad pertengahan yang berkaitan dengan perubahan kekuasaan
-                di wilayah strategis. Peristiwa tersebut adalah
-                Penaklukan Yerusalem pada tahun 1187 dan Kejatuhan
-                Konstantinopel pada tahun 1453.
-            </p>
-
-        </section>
-
-
-        <!-- DUA SEJARAH -->
-
-        <section class="card">
-
-            <h2 style="color: #5a3928; margin-bottom: 10px;">
-                Sejarah yang Dibahas
-            </h2>
-
-            <div class="topics">
-
-
-                <!-- YERUSALEM -->
-
-                <div class="topic">
-
-                    <h2>Penaklukan Yerusalem</h2>
-
-                    <p>
-                        Pada tahun 1187, Salahuddin Al-Ayyubi memimpin
-                        pasukan Muslim dalam menghadapi kekuatan
-                        Kerajaan Yerusalem. Setelah kemenangan dalam
-                        Pertempuran Hattin, Yerusalem kemudian
-                        diserahkan kepada pasukan Salahuddin pada
-                        bulan Oktober 1187.
-                    </p>
-
-                    <a
-                        class="button"
-                        href="yerusalem.html">
-                        Lihat Selengkapnya
-                    </a>
-
-                </div>
-
-
-                <!-- KONSTANTINOPEL -->
-
-                <div class="topic">
-
-                    <h2>Kejatuhan Konstantinopel</h2>
-
-                    <p>
-                        Pada tahun 1453, Konstantinopel ditaklukkan
-                        oleh pasukan yang dipimpin Mehmed II.
-                        Peristiwa ini mengakhiri Kekaisaran
-                        Bizantium dan menjadi salah satu peristiwa
-                        penting dalam sejarah abad pertengahan.
-                    </p>
-
-                    <a
-                        class="button"
-                        href="konstantinopel.html">
-                        Lihat Selengkapnya
-                    </a>
-
-                </div>
-
-
+                <a class="button" href="yerusalem.html">
+                    Lihat Selengkapnya
+                </a>
             </div>
 
-        </section>
+            <!-- KONSTANTINOPEL -->
+            <div class="topic">
+                <h2>Kejatuhan Konstantinopel</h2>
+                <p>
+                    Pada tahun 1453, Konstantinopel ditaklukkan
+                    oleh pasukan yang dipimpin Mehmed II.
+                    Peristiwa ini mengakhiri Kekaisaran
+                    Bizantium dan menjadi salah satu peristiwa
+                    penting dalam sejarah abad pertengahan.
+                </p>
 
+                <a class="button" href="konstantinopel.html">
+                    Lihat Selengkapnya
+                </a>
+            </div>
 
-    </main>
+        </div>
+    </section>
 
+</main>
 
-    <!-- FOOTER -->
-    
-
+<!-- FOOTER -->
+<footer>
+    <p>
+        Website Sejarah | Tugas Pemrograman Web
+    </p>
+</footer>
+```
 
 </body>
 
