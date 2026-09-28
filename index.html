@@ -1,101 +1,140 @@
 <!DOCTYPE html>
-
 <html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Jejak Kekuasaan Islam</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet">
 </head>
 
 <body>
-<!-- HEADER -->
-<header>
-    <h1>JEJAK KEKUASAAN ISLAM</h1>
-    <p>
-        Penaklukan dan Perubahan Kekuasaan di Abad Pertengahan
-    </p>
 
-    <nav>
-        <a href="index.html">Beranda</a>
-        <a href="yerusalem.html">
-            Penaklukan Yerusalem
-        </a>
-        <a href="konstatinopel.html">
-            Kejatuhan Konstantinopel
-        </a>
-    </nav>
-</header>
+    <!-- HEADER -->
+    <header>
 
-<!-- ISI -->
-<main class="container">
+        <h1>JEJAK KEKUASAAN ISLAM</h1>
 
-    <!-- PENGENALAN -->
-    <section class="card intro">
-        <h2>Selamat Datang</h2>
         <p>
-            Website ini membahas dua peristiwa penting dalam sejarah
-            abad pertengahan yang berkaitan dengan perubahan kekuasaan
-            di wilayah strategis. Peristiwa tersebut adalah
+            Penaklukan dan Perubahan Kekuasaan di Abad Pertengahan
+        </p>
+
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="yerusalem.html">Penaklukan Yerusalem</a>
+            <a href="konstatinopel.html">Kejatuhan Konstantinopel</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ISI -->
+    <main class="site-container">
+
+        <!-- PEMBUKA -->
+        <section class="history-card intro">
+
+            <h2>Selamat Datang</h2>
+
+            <p>
+                Website ini membahas dua peristiwa penting dalam sejarah
+                abad pertengahan yang berkaitan dengan perubahan kekuasaan
+                di wilayah strategis. Peristiwa tersebut adalah
+                Penaklukan Yerusalem pada tahun 1187 dan Kejatuhan
+                Konstantinopel pada tahun 1453.
+            </p>
+
+        </section>
+
+
+        <!-- BOOTSTRAP ALERT -->
+        <div class="alert alert-light border border-secondary shadow-sm rounded-4"
+            role="alert">
+
+            <strong>Peristiwa yang Dibahas:</strong>
+
             Penaklukan Yerusalem pada tahun 1187 dan Kejatuhan
             Konstantinopel pada tahun 1453.
-        </p>
-    </section>
-
-    <!-- DUA SEJARAH -->
-    <section class="card">
-        <h2>
-            Sejarah yang Dibahas
-        </h2>
-
-        <div class="topics">
-
-            <!-- YERUSALEM -->
-            <div class="topic">
-                <h2>Penaklukan Yerusalem</h2>
-                <p>
-                    Pada tahun 1187, Salahuddin Al-Ayyubi memimpin
-                    pasukan Muslim dalam menghadapi kekuatan
-                    Kerajaan Yerusalem. Setelah kemenangan dalam
-                    Pertempuran Hattin, Yerusalem kemudian
-                    diserahkan kepada pasukan Salahuddin pada
-                    bulan Oktober 1187.
-                </p>
-
-                <a class="button" href="yerusalem.html">
-                    Lihat Selengkapnya
-                </a>
-            </div>
-
-            <!-- KONSTANTINOPEL -->
-            <div class="topic">
-                <h2>Kejatuhan Konstantinopel</h2>
-                <p>
-                    Pada tahun 1453, Konstantinopel ditaklukkan
-                    oleh pasukan yang dipimpin Mehmed II.
-                    Peristiwa ini mengakhiri Kekaisaran
-                    Bizantium dan menjadi salah satu peristiwa
-                    penting dalam sejarah abad pertengahan.
-                </p>
-
-                <a class="button" href="konstatinopel.html">
-                    Lihat Selengkapnya
-                </a>
-            </div>
 
         </div>
-    </section>
 
-</main>
 
-<!-- FOOTER -->
-<footer>
-    <p>
-        Website Sejarah | Tugas Pemrograman Web
-    </p>
-</footer>
-```
+        <!-- DUA SEJARAH -->
+        <section class="history-card">
+
+            <h2>Sejarah yang Dibahas</h2>
+
+            <div class="topics">
+
+                <!-- YERUSALEM -->
+                <div class="topic">
+
+                    <h2>Penaklukan Yerusalem</h2>
+
+                    <p>
+                        Pada tahun 1187, Salahuddin Al-Ayyubi memimpin
+                        pasukan Muslim dalam menghadapi kekuatan
+                        Kerajaan Yerusalem. Setelah kemenangan dalam
+                        Pertempuran Hattin, Yerusalem kemudian
+                        diserahkan kepada pasukan Salahuddin pada
+                        bulan Oktober 1187.
+                    </p>
+
+                    <!-- Bootstrap Button -->
+                    <a
+                        class="btn btn-dark"
+                        href="yerusalem.html">
+                        Lihat Selengkapnya
+                    </a>
+
+                </div>
+
+
+                <!-- KONSTANTINOPEL -->
+                <div class="topic">
+
+                    <h2>Kejatuhan Konstantinopel</h2>
+
+                    <p>
+                        Pada tahun 1453, Konstantinopel ditaklukkan
+                        oleh pasukan yang dipimpin Mehmed II.
+                        Peristiwa ini mengakhiri Kekaisaran
+                        Bizantium dan menjadi salah satu peristiwa
+                        penting dalam sejarah abad pertengahan.
+                    </p>
+
+                    <!-- Bootstrap Button -->
+                    <a
+                        class="btn btn-dark"
+                        href="konstatinopel.html">
+                        Lihat Selengkapnya
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Website Sejarah | Tugas Pemrograman Web
+        </p>
+
+    </footer>
 
 </body>
 
